@@ -1,6 +1,16 @@
 import 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.umd.js';
 
 CookieConsent.run({
+     revision: 1,
+
+    cookie: {
+        name: 'cookieaceptada',
+        // domain: location.hostname,
+        // path: '/',
+        // sameSite: "Lax",
+        expiresAfterDays: 31,
+    },
+
     guiOptions: {
         consentModal: {
             layout: "box",
