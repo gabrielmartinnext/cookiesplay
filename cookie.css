@@ -1,0 +1,27 @@
+.cm__btn-group .cm__btn:nth-of-type(2) {
+    background-color: #dfe7f9!important;
+    color:#112954!important;
+  }
+
+  .cm__btn-group .cm__btn:nth-of-type(2):hover {
+    background-color:  #c6d1ea!important;
+    color:#000!important;
+  }
+
+  .boton-flotante {
+    position: fixed;
+    bottom: 7px;
+    right: 129px;
+    background-color: #fff;
+    color: #222222;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+  }
+
+ 
