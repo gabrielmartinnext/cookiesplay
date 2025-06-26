@@ -1,0 +1,70 @@
+.cm__btn-group .cm__btn:nth-of-type(2) {
+    background-color: #dfe7f9!important;
+    color:#112954!important;
+    border: 0px!important;
+  }
+
+  .cm__btn-group .cm__btn:nth-of-type(2):hover {
+    background-color:  #c6d1ea!important;
+    color:#000!important;
+  }
+
+#cc-main > div.pm-wrapper.cc--anim > div.pm.pm--box.pm--flip > div.pm__footer > div:nth-child(1) > button:nth-child(2) {
+    background-color: #dfe7f9!important;
+    color:#112954!important;
+    border: 0px!important;
+  }
+#cc-main > div.pm-wrapper.cc--anim > div.pm.pm--box.pm--flip > div.pm__footer > div:nth-child(1) > button:nth-child(2):hover {
+    background-color:  #c6d1ea!important;
+    color:#000!important;
+  }
+
+  .boton-flotante {
+    position: fixed;
+    bottom: 7px;
+    left: 5px;
+    background-color: #161a1c;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+  }
+
+ :root{
+  
+  --cc-bg: #161a1c;
+  --cc-primary-color: rgb(239, 244, 246);
+  --cc-secondary-color: #b1bdc3;
+
+  --cc-btn-primary-bg: #9b59b6;
+  --cc-btn-primary-color: #000;
+  --cc-btn-primary-hover-bg: #a569bd;
+  --cc-btn-primary-hover-color: #000;
+
+  --cc-btn-secondary-bg: #242c31;
+  --cc-btn-secondary-color: var(--cc-primary-color);
+  --cc-btn-secondary-hover-bg: #d4dae0;
+  --cc-btn-secondary-hover-color: #000;
+
+  --cc-cookie-category-block-bg: #1e2428;
+  --cc-cookie-category-block-border: #1e2428;
+  --cc-cookie-category-block-hover-bg: #242c31;
+  --cc-cookie-category-block-hover-border: #242c31;
+  --cc-cookie-category-expanded-block-hover-bg: #242c31;
+  --cc-cookie-category-expanded-block-bg: #1e2428;
+  --cc-toggle-readonly-bg: #343e45;
+  --cc-overlay-bg: rgba(4, 6, 8, .85)!important;
+
+  --cc-toggle-on-knob-bg: var(--cc-bg);
+  --cc-toggle-readonly-knob-bg: var( --cc-cookie-category-block-bg);
+
+  --cc-separator-border-color: #222a30;
+
+  --cc-footer-border-color: #212529;
+  --cc-footer-bg: #0f1112;
+ }
