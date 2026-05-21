@@ -182,10 +182,10 @@ CookieConsent.run({
                     acceptAllBtn: "Aceptar todo",
                     acceptNecessaryBtn: "Rechazar todo",
                     showPreferencesBtn: "Gestionar preferencias",
-                    footer: ""
+                    footer: "<a href=\"politica-de-cookies\">Politica de Privacidad</a>\n<a href=\"aviso-legal\">Términos y Condiciones</a>"
                 },
                 preferencesModal: {
-                    title: "Preferencias de Consentimiento",
+                    title: "Preferencias de Consentimiento <a class='politicsBaner' href=\"politica-de-cookies\">Politica de Privacidad</a> ",
                     closeIconLabel: "Cerrar modal",
                     acceptAllBtn: "Aceptar todo",
                     acceptNecessaryBtn: "Rechazar todo",
@@ -256,7 +256,7 @@ CookieConsent.run({
                         },
                         {
                             title: "Más información",
-                            description: "Para cualquier consulta relacionada con nuestra política de cookies."
+                            description: "Para cualquier consulta relacionada con nuestra <a href=\"politica-de-cookies\">política de cookies</a>. consulta nuestra <a href=\"politica-de-privacidad\">política de privacidad</a>"
                         }
                     ]
                 }
