@@ -24,4 +24,19 @@
     z-index: 1000;
   }
 
- 
+ .politicsBaner{
+  float: right;
+ }
+
+ #pm__title{
+  display: block!important;
+ }
+
+   @media (max-width: 767px) {
+     #pm__title{
+  display: flex!important;
+ }
+ .politicsBaner{
+  float: none;
+ }
+   }
