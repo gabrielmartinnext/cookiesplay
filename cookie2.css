@@ -25,7 +25,7 @@
   }
 
  .politicsBaner{
-  float: right;
+  float: right!important;
  }
 
  #pm__title{
