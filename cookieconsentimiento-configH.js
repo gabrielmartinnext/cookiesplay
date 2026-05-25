@@ -1,8 +1,8 @@
 import 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.umd.js';
 
-var urlcookies=document.getElementById('encrycookie').value;
-var urlpolticas=document.getElementById('encrypolticas').value;
-var urlaviso=document.getElementById('encryaviso').value;
+var urlcookies=document.getElementById('ccp-cookie-policy-url').value;
+var urlpolticas=document.getElementById('ccp-privacy-policy-url').value;
+var urlaviso=document.getElementById('ccp-terms-url').value;
 
 // Categorías de cookies
 const CAT_NECESSARY = "necessary";
