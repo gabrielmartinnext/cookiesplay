@@ -37,6 +37,6 @@
   display: flex!important;
  }
  .politicsBaner{
-  float: none;
+  float: none!important;
  }
    }
